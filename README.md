@@ -11,7 +11,8 @@ It was born as a result of worrying about the slow start of powershell.
 
 If there is no sha512sum, use a command such as sha256sum.
 
-windowsで「/dev/urandom」の代わりは？が気になるのに、MinGWを導入しろだの、CigWinを導入しろだのは、ほんとうによしてほしいですな。
+Windowsで（何もインストールしたくない前提で）「/dev/urandom」の代わりを使うには？が気になるのに、MinGWを導入しろだの、CygWinを導入しろだのは、ほんとうによしてほしいですな。他人に使わせるときにどうするんだよ、って思わないのだろうか・・・。
+
 /dev/urandomを使わない乱数は、「どの環境でも使えるシェルスクリプトを書くためのメモ ver4.60」
 https://qiita.com/richmikan@github/items/bd4b21cf1fe503ab2e5c
 にあったので、その乱数を5個つないだ文字列を元手にハッシュ値を生成し、ハッシュ値の文字列を攪拌してランダムな英数字を取得する手法をとりました。
