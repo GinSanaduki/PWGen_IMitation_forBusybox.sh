@@ -1,3 +1,7 @@
+<p align="center">
+    <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/license-bsd-orange.svg" alt="Licenses"></a>
+</p>
+
 # PWGen_IMitation_forBusybox.sh
 pwgenライクにランダムな文字列を生成する（Generate a random string for pwgen-like）
 
